@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background:rgb(90, 140, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Weather_container{
+    color: white;
+}
+.temp{
+    font-size: 4rem;
+}
+.time_location{
+    font-size: 1.5rem;
+}
+
+.condition{
+    margin: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+nav{
+    height: 100px;
+    margin: 5rem;
+}
+
+.search_area{
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-bottom: 2px solid white;
+    width: 98%;
+}
+
+nav form button{
+    padding: 0.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
